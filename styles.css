@@ -1,0 +1,28 @@
+.board {
+    height: 500px;
+    width: 500px;
+    display: grid;
+    border: 1px solid black;
+    margin: auto;
+}
+
+h3 {
+    margin: auto;
+    font-size: 2rem;
+}
+
+.button {
+   text-align: center;
+   margin: 1rem auto;
+   padding: 1rem;
+   font-size: 1.5rem;
+}
+
+#message {
+    margin: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}

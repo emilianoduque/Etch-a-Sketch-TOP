@@ -16,6 +16,34 @@ h3 {
    margin: 1rem auto;
    padding: 1rem;
    font-size: 1.5rem;
+   border-radius: 10px;
+   border: none;
+}
+
+.buttons-section {
+    margin: 1rem;
+}
+
+.btn {
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-black {
+    color: white;
+    background-color: black;
+}
+
+.btn-reset {
+    color: black;
+
+}
+
+.btn-random{
+    color: black;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
 }
 
 #message {
@@ -25,4 +53,6 @@ h3 {
 body {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
